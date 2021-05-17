@@ -13,7 +13,7 @@ def get_video_url():
     
 root = tk.Tk()
 root.title('Youtube Downloader')
-root.iconphoto(False, tk.PhotoImage(file = 'images/índice.png'))
+# root.iconphoto(False, tk.PhotoImage(file = './images/indice.ppm'))
 root.geometry("400x400")
 root.resizable(width= False, height = False)
 canvas1 = Canvas(root, height=400, width=400, bg="#8f175f")
